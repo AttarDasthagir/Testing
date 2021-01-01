@@ -7,7 +7,8 @@ class MainPage extends Component{
     constructor(props){
         super(props);
         this.state={
-            userData:[]
+            userData:[],
+            testing:"test"
         }
     }
 
