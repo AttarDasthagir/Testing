@@ -12,7 +12,7 @@ class MainPage extends Component{
     }
 
     logout(){
-        this.props.logout();
+        this.props.logout()
     }
     getData(){
         users.getUsers().then((data)=>{
